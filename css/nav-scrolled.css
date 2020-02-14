@@ -1,0 +1,99 @@
+nav.isScrolled {
+    display: none;
+    position: fixed;
+    left: 0;
+    top:0;
+    background: #3e5775;
+    z-index: 999;
+}
+
+nav.isScrolled img {
+    width: 260px;
+    position: relative;
+    top: 20px;
+    left: 0;
+}
+
+
+.navIsScrolledWrap ul {
+    float: right;
+    list-style-type: none;
+    margin-bottom: 0;
+/*    margin-right: 30px;*/
+}
+
+.navIsScrolledWrap > ul > li {
+    float: left;
+}
+
+.navIsScrolledWrap > ul > li > a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    height: 80px;
+    display: block;
+    padding: 0 20px;
+    line-height: 80px;
+    transition: 0.2s all;
+}
+
+.navIsScrolledWrap > ul > li > a:hover {
+    background: #263D58;
+    text-decoration: none;
+    color: #fff;
+}
+
+.scrolledAttendSubnav, .scrolledExhibitSubnav {
+    display: none;
+}
+
+.scrolledsubNav {
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    top: 80px;
+    left: 0;
+    background: #263D58;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;;
+}
+
+.scrolledsubNav li{
+    justify-content: space-evenly;
+}
+
+.scrolledsubNav li a {
+    padding: 6px 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.activeNav  {
+    background: #263D58;
+    color: #fff !important;
+}
+
+.sub-tickets {
+    background: #ffa400;
+}
+
+
+@media (max-width: 992px) {
+    .navIsScrolledWrap > ul > li > a {
+        font-size: 14px;
+    }
+    .scrolledsubNav li a {
+        padding: 6px 9px;
+        font-size: 13px;
+        font-weight: 400 !important;
+    }
+}
+
+@media (max-width: 767px) {
+    nav.isScrolled {
+        display: none !important;
+    }
+}

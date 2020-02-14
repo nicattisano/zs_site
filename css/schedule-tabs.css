@@ -1,0 +1,126 @@
+.scheduleTabs {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  width: 1085px;
+}
+
+.scheduleTabs section {
+  display: none;
+  padding: 20px 0 0;
+}
+
+.scheduleTabs input {
+  display: none;
+}
+
+.scheduleTabs label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  font-size: 13.5px;
+  width: 212px;
+  height: 50px;
+  padding: 14px 0;
+}
+
+/*
+.scheduleTabs label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+*/
+
+.scheduleTabs label:hover {
+  cursor: pointer;
+}
+
+
+label[for=tab1] { background: #efdc57; }
+label[for=tab1]:hover { background: #b7a739; }
+label[for=tab2] { background: #4dde4d;}
+label[for=tab2]:hover { background: #36af36;}
+label[for=tab3] {background: orange;}
+label[for=tab3]:hover {background: #da920f;}
+label[for=tab4] { background: #f785bf; }
+label[for=tab4]:hover { background: #c15c6e; }
+label[for=tab5] {background: #8a558a;}
+label[for=tab5]:hover {background: #6d396d;}
+
+.scheduleTabs input:checked + label {
+    color: #fff;
+    border: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.scheduleTabs #tab1:checked ~ #content1,
+.scheduleTabs #tab2:checked ~ #content2,
+.scheduleTabs #tab3:checked ~ #content3,
+.scheduleTabs #tab4:checked ~ #content4,
+.scheduleTabs #tab5:checked ~ #content5 {
+  display: block;
+}
+
+.schedule-inner {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.schedule-inner h2 {
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .scheduleTabs label {
+    font-size: 0;
+  }
+  .scheduleTabs label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .scheduleTabs label {
+    padding: 15px;
+  }
+}
+
+
+@media (max-width:1200px) and (min-width:993px) {
+    .scheduleTabs {
+      width: 100%;
+    }
+    .scheduleTabs label {
+        padding: 15px 8px;
+        font-size: 14px;
+        width: 185px;
+    }
+    .scheduleTabs input, .scheduleTabs input + label {
+        position: relative;
+        top: 0;
+        float: left;
+        height: 68px;
+    }
+}
+
+@media (max-width:992px) {
+    .scheduleTabs {
+        width: 100%;
+    }
+    .scheduleTabs label {
+        padding: 15px 8px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:767px) {
+    .scheduleTabs label {
+        font-size: 17px;
+        width: 100%;
+    }
+}

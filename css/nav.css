@@ -1,0 +1,192 @@
+.mainNav {
+    background: #fff;
+/*    padding: 20px;*/
+    z-index: 9;
+    height: 120px;
+}
+
+/*img.logo*/
+a.logo-url {
+    max-width: 430px;
+    position: absolute;
+    left: 0;
+}
+img.logo {
+/*    max-width: 430px;*/
+    
+/*
+    max-width: 430px;
+    position: absolute;
+    left: 0;
+*/
+    max-width: 100%;
+    padding: 31px 22px;
+    background: #fff;
+}
+
+.navSide {
+    z-index: 999;
+}
+
+.navSide ul {
+    float: right;
+    list-style-type: none;
+    margin-bottom: 0;
+/*    margin-right: 30px;*/
+}
+
+.navSide > ul > li {
+    float: left;
+}
+
+.navSide > ul > li > a {
+    color: #263D58;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    height: 120px;
+    display: block;
+    padding: 0 20px;
+    line-height: 120px;
+    transition: 0.2s all;
+}
+
+.navSide > ul > li > a:hover {
+    background: #263D58;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navSide > ul > li > ul {
+    display: none;
+    padding: 0;
+    position: absolute;
+}
+
+.navSide > ul > li > ul > li {
+    background: #263D58;
+}
+
+.navSide > ul > li > ul > li > a {
+    padding: 15px 20px;
+    width: 100%;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .9em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navSide > ul > li > ul > li > a:hover {
+    background: #ff9900;
+    text-decoration: none;
+}
+
+.main {
+    background: url(../images/toronto.jpg);
+    background-size: cover;
+    min-height: 100vh;
+/*    margin-bottom: 40px;*/
+}
+
+.mainInner {
+    color: #fff;
+    padding: 100px;
+}
+
+.noPadRight {padding-right: 0;}
+
+
+.topNav {
+/*    border-bottom: 1px solid #eae6e6;*/
+}
+
+.topNavUl {
+    float: right;
+    list-style: none;
+    line-height: 40px;
+    height: 40px;
+    margin: 0;
+    display: none;
+}
+.topNavUl li {
+    float: left;
+}
+.topNavUl li a {
+    display: block;
+    padding: 0 22px;
+    font-size: 14px;
+    color: #002241;
+}
+
+.topNavUl li a:first-child {
+    padding: 0 22px 0 0;
+}
+
+.dateTimeNav {
+    background: #ffa400;
+}
+.dateTimeNav a {
+    color: #fff !important;
+    line-height: 100% !important;
+    font-size: 120%;
+    text-align: center;
+    height: 120px !important;
+    padding: 16px 75px !important;
+    margin-right: 0 !important;
+}
+.dateTimeNav a span {
+    font-size: 70%;
+    letter-spacing: 2px;
+    font-weight: 300 !important;
+}
+.dateTimeNav a:hover {
+    background: #ffa400 !important;
+    height: 120px !important;
+}
+
+@media (max-width: 1400px) {
+    .dateTimeNav a {
+        padding: 36px 35px !important;
+    }
+}
+
+@media (max-width: 1220px) {
+    .dateTimeNav a {
+        padding: 43px 19px !important;
+    }
+    .navSide > ul > li > a {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1080px) {
+    img.logo {
+        max-width: 330px;
+    }
+    .dateTimeNav a {
+        padding: 43px 22px !important;
+    }
+    .topNavUl {padding-left: 0;}
+    .topNavUl li a {
+        font-size: 11px !important;
+    }
+    .navSide ul {padding-left: 0;}
+}
+
+@media (max-width: 992px) {
+    .topNavUl li a {
+        font-size: 11px;
+        padding: 0 13px;
+    }
+    .navSide > ul > li > a {
+        font-size: 13px;
+    }
+    .navSide > ul > li {
+        float: left;
+        max-width: 190px;
+    }
+}
+
+@media (max-width: 767px) {
+    .topNav, .mainNav  {display: none;}
+}

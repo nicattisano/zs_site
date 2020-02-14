@@ -1,0 +1,24 @@
+.hoth-dashboard {
+    width: 50% !important;
+    margin-top: 12px !important;
+    height: 45px !important;
+}
+
+.hoth-dash, .hoth-tripdash {
+    height: 45px !important;
+    background: rgba(255, 175, 0, 0.22) !important;
+}
+
+.hoth-digit {
+/*    font-family: 'Source Sans Pro', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+    font-size: .7em !important;
+/*    font-weight: 400 !important;*/
+    padding-top: 4px !important;
+}
+
+@media (max-width: 768px) {
+    .hoth-dashboard {
+        width: 100% !important;
+    }
+}

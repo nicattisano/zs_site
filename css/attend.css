@@ -1,0 +1,414 @@
+
+.attendBanner {
+    background-size: cover;
+    color: #fff;
+}
+
+
+.secPadHero {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.secPadWhy {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.attendBanner h1 {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 600;
+}
+
+.schedule h1 {
+    text-align: center;
+}
+
+.getTicketsBtn {
+    background: #ff9900;
+    display: block;
+    width: 300px;
+/*    float: left;*/
+    margin: 20px auto;
+    text-align: center;
+    padding: 12px;
+    border-radius: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .9em;
+    letter-spacing: 0.01em;
+    transition: 0.2s all
+}
+.getTicketsBtn:hover {
+    text-decoration: none;
+    background: #dc8605;
+    color: #fff;
+}
+
+.more-btn {margin: 0 0 0 0;}
+
+.bigger {font-size: 120%}
+.bold {font-weight: 700;}
+.lightLink a {color: #e2e2e2;}
+.lightLink a:hover {color: #fff;}
+
+
+/*Why Attend*/
+
+.whats-new-box {
+    background: #fff;
+    padding: 12px;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    min-height: 200px;
+}
+
+.whats-new-box h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    color: #273d5a;
+}
+
+
+.videoCol {
+    padding-left: 70px;
+}
+
+.videoCol h4, .videoCol p {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.promo-wrap {
+    color: #fff;
+    text-transform: uppercase;
+    background: #314e6e;
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.promo-wrap p {
+    position: relative;
+    top: 7px;
+    font-size: 19px;
+}
+
+a.promo-button {
+    background: #142235;
+    color: #fff;
+    display: block;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    transition: 0.2s all;
+    font-size: 19px;
+}
+
+a.promo-button:hover {
+    background: #142235;
+    text-decoration: none;
+}
+
+/*Schedule*/
+.entertainmentSchedule h2 {
+    color: #2b4563;
+    text-transform: uppercase;
+}
+.entertainmentRow {
+
+}
+
+.entertainmentInfo {
+    display: block;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.entertainmentInfo:hover {
+    text-decoration: none;
+    color: #2c4465;
+}
+
+.entertainmentInfo h4 {
+    color: #ffa400;
+    margin-bottom: 2px;
+}
+.entertainmentInfo h3{
+    font-size: 20px;
+    color: #2c4465;
+}
+.entertainmentInfo h5{
+    font-size: 76%;
+    text-transform: uppercase;
+    color: #2c4465;
+}
+
+
+/*Exhibitor Zones*/
+
+
+
+.accordion .card-header:after {
+/*
+    font-family: 'FontAwesome';    
+    float: right;   
+*/
+    content: ""; 
+}
+.accordion .card-header.collapsed:after {
+    content: "";
+}
+.accordion .card-header i {
+    position: absolute;
+    right: 20px;
+    font-size: 35px;
+    transform: rotate(0deg);
+}
+.accordion .card-header.collapsed i {
+/*     symbol for "collapsed" panels */
+/*    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f33a";*/
+/*    content: "\f0d7";  */
+    position: absolute;
+    right: 20px;
+    font-size: 35px;
+}
+
+.card-body {
+    padding: 0 1.25rem !important;
+}
+
+.card-body ul {
+    padding: 1.25rem; 
+}
+
+.card-body ul li a {
+    color: #273d5a;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgb(39, 61, 90);
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.card-header:hover {
+    cursor: pointer;
+}
+
+.smallerTop {
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: .55em;
+}
+
+div#accordion {
+    float: left;
+    width: 100%;
+}
+
+/*Floorplan*/
+
+.floorplanImg {
+    border: 1px solid #e6e6e6;
+}
+
+/*Sponsors*/
+
+.sponsors h1 {
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.sponsors img {
+    padding: 20px 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.sponsors h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffa400;
+    padding-bottom: 15px;
+}
+
+.sponsorImgLinkWrap {
+    max-width: 200px;
+}
+.largerLogo {
+    width: 320px;
+    max-width: 320px;
+}
+.smallerLogo {
+    width: 140px;
+    max-width: 140px;
+}
+
+/*Location*/
+
+.location {
+    background: #2b4563;
+}
+
+.location h3 {
+    color: #fff;
+}
+
+.white {color: #d8d8d8;}
+
+.mapouter {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+/*FAQ*/
+
+
+.accordion .card-header:after {
+/*
+    font-family: 'FontAwesome';    
+    float: right;   
+*/
+    content: ""; 
+}
+.accordion .card-header.collapsed:after {
+    content: "";
+}
+.accordion .card-header i {
+    position: absolute;
+    right: 20px;
+    font-size: 35px;
+    transform: rotate(0deg);
+}
+.accordion .card-header.collapsed i {
+/*     symbol for "collapsed" panels */
+/*    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f33a";*/
+/*    content: "\f0d7";  */
+    position: absolute;
+    right: 20px;
+    font-size: 35px;
+}
+
+.card-body ul li a {
+    color: #273d5a;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgb(39, 61, 90);
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.card {
+     border: none !important;
+     border-radius: 0 !important; 
+}
+
+.card-header-faq {
+    padding: 1.25rem;
+    border-bottom: 1px solid #dfdfdf;
+    border-radius: 0;
+    border-top: none;
+    color: #273d5a;
+    text-decoration: none;
+    background: #f1f1f1;
+}
+.card-header-faq:hover{
+    text-decoration: none;
+    color: #000;
+}
+.card-faq-body {
+    padding: 1.25em !important;
+}
+
+
+.video{
+		max-width:100%;
+		/*padding:2.857em 0;*/
+	}
+	.video:after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+	
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+
+	margin-bottom:20px;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border:0;
+}
+
+@media (max-width: 1200px) {
+    .whats-new-box h2 {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    * {
+        font-size: 98%;
+    }
+    h1, h2 {font-size: 24px;}
+    .whats-new-box {
+        padding: 14px;
+        min-height: auto;
+    }
+    .promo-wrap p {
+        top: 14px;
+        font-size: 14px;
+    }
+    a.promo-button {font-size: 14px;}
+    .whats-new-box h2 {
+        font-size: 20px;
+    }
+    .more-btn {
+        margin: 20px auto 40px;
+    }
+    .videoCol {padding-left: 0;}
+    .videoCol h4, .videoCol p {text-align: center;}
+}
+
+@media (max-width: 767px) {
+    .mapouter {
+    height: 320px !important;
+    width: 320px !important;
+    }
+    .gmap_canvas {
+        height: 320px !important;
+        width: 320px !important;
+    }
+    .attendBanner h1 {
+        font-size: 24px;
+    }
+}

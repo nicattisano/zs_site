@@ -1,0 +1,70 @@
+.alert_wrap {
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+    z-index:9999;
+    float: left;
+    width: 700px;
+}
+
+.alert_lip {
+    float: left;
+    width: 100%;
+}
+
+.alert_lip_inner {
+    background: #da3b3b;
+    color: #fff;
+    font-weight: bold;
+    padding: 14px;
+    width: 320px;
+    float: right;
+    position: relative;
+}
+
+.alert_lip #alertToggleControl {
+    float: right;
+    display: block;
+    color: #fff;
+}
+
+
+.alert_body {
+    background: #da3b3b;
+    color: #fff;
+    margin: 0;
+    width: 630px;
+    font-size: 14px;
+    padding: 14px;
+    float: left;
+    width: 100%;
+}
+
+#opened, #closed {
+    position: absolute;
+}
+
+.alertToggleControl:hover {
+    text-decoration: none;
+}
+.alertHidden {
+    bottom: -245px;
+}
+
+
+@media (max-width:768px) {
+    .alert_wrap {
+        right: 0;
+        width: 100%;
+    }
+    .alert_wrap {
+        width: 320px;
+    }
+    .alert_lip_inner {
+        padding: 8px 14px;
+    }
+    .alertHidden {
+/*        bottom: -352px;*/
+            bottom: -488px;
+    }
+}

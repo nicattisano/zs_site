@@ -1,0 +1,149 @@
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:300');
+/*@import url('https://fonts.googleapis.com/css?family=Nunito:300,600');*/
+/*@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
+
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+/*    font-family: 'Source Sans Pro', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 15pt;
+
+    position: relative;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+/*    font-family: 'Source Sans Pro', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.splash-logo {
+    margin: 0 auto;
+}
+
+.footnote {
+    font-size: 16px;
+}
+
+.full {
+    float: left;
+    width: 100%;
+}
+
+.max-full {
+    max-width: 100%;
+}
+
+.secPadLg {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.lightGreyBg {
+    background: #e6e6e6;
+}
+
+.secPad {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.secPadTop {
+    padding-top: 50px;
+}
+
+.secPadBottom {
+    padding-bottom: 50px;
+}
+
+.padTopMd {
+    padding-top: 40px;
+}
+
+.margTopMd {
+    margin-top: 30px;
+}
+
+.margBotMd {
+    margin-bottom: 30px;
+}
+
+.simpleLink {
+    color: #263D58;
+}
+.simpleLink:hover {
+    color: #263D58;
+}
+
+.underline {text-decoration: underline;}
+
+.medium {
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.smaller {
+    font-size: 60%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn {
+    background: #ff9900;
+    display: table;
+    margin: 20px auto;
+    text-align: center;
+    padding: 12px 35px;
+    border-radius: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .9em;
+    letter-spacing: 0.01em;
+    transition: 0.2s all;
+}
+.btn:hover {
+    text-decoration: none;
+    background: #dc8605;
+    color: #fff;
+}
+
+.noPad {padding: 0;}
+
+.smallSep {
+    width: 40px;
+    height: 2px;
+    background: #2b4563;
+    margin: 15px 0 30px 0;
+}
+
+@media (max-width: 1400px) {
+    body {
+        font-size: 14pt;
+    }
+    .footnote {
+        font-size: 13pt;
+    }
+}
+
+
+@media (max-width: 768px) {
+    body {
+/*        padding-top: 46px;*/
+    }
+}

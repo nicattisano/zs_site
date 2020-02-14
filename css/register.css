@@ -1,0 +1,35 @@
+.entry-title {
+    padding-bottom: 30px;
+}
+
+.wpcf7 {
+    margin: 40px 0 !important;
+}
+
+.wpcf7 input[type=submit] {
+    color: #fca600;
+    background-color: transparent;
+    background-image: none;
+    border-color: #fca600;
+}
+
+.wpcf7 input[type=submit]:hover {
+    color: #fff;
+    background-color: #fca600;
+    border-color: #fca600;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    width: 150px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.wpcf7 input[type=text]:focus, .wpcf7 input[type=email]:focus, .wpcf7 input[type=time]:focus, .wpcf7 input[type=url]:focus, .wpcf7 input[type=week]:focus, .wpcf7 select:focus, .wpcf7 textarea:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: rgba(73, 80, 87, 0.65);
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(73, 80, 87, 0.65);
+    box-shadow: 0 0 0 0.2rem rgba(73, 80, 87, 0.65);
+}
